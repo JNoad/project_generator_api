@@ -1,0 +1,43 @@
+*, ::before, ::after {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+form div > * {
+    padding: 4px;
+    margin: 4px;
+}
+
+input {
+    padding: 2px 4px;
+}
+
+input[type=submit][value=Submit] {
+    background-color: crimson; color: white;
+}
+button {
+    background-color: #666; color: white;
+}
+input[type=submit], form button {
+    border: none;
+    text-transform: capitalize;
+    padding: 4px 8px;
+}
+
+input[type=submit]:active, button:active {
+    scale: 0.95;
+}
